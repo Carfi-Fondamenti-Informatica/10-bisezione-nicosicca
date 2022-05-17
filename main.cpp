@@ -3,8 +3,8 @@
 
 using namespace std;
 
-double f(double x){
-    double t;
+float f(float x){
+    float t;
     t=pow(x,2)*cos(x)+1;
     return t;
 }
@@ -12,10 +12,9 @@ double f(double x){
 
 int main()
 {
-    double a,b,x,err;
-
-    cout<<"inserire estremi"<<endl;
+    float a,b,x,err;
     do{
+        cout<<"inserire estremi"<<endl;
         cin>>a;
         cin>>b;
     }while((f(a)*f(b)>=0)||(a>b));

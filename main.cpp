@@ -35,7 +35,7 @@ int main()
         }
     }while(err>=1e-7);
     
-    cout<<x*1000/1000.0<<endl;
+    cout<<int(x*10000/10000.0)<<endl;
 
     return 0;
 }

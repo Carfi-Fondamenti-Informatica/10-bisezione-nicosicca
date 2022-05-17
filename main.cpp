@@ -28,10 +28,16 @@ int main()
         else
         {
             if(f(x)*f(b)<0)
+            {
                 a=x;
+                err=abs(b-x)/2;
+            }
             else
+            {
                 b=x;
-            err=abs(b-a)/2;
+                err=abs(x-b)/2;
+            }
+
         }
     }while(err>=1e-6);
     

@@ -14,7 +14,6 @@ int main()
 {
     double a,b,x,err;
 
-    cout<<f(10)<<endl;
     do{
         cout<<"inserire estremi"<<endl;
         cin>>a;

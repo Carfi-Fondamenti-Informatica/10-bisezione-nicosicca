@@ -18,7 +18,7 @@ int main()
         cout<<"inserire estremi"<<endl;
         cin>>a;
         cin>>b;
-    }while(f(a)*f(b)>=0);
+    }while((f(a)*f(b)>=0)||(a>b));
 
 
 

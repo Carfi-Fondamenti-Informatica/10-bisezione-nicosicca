@@ -33,7 +33,7 @@ int main()
                 b=x;
             err=abs(b-a)/2;
         }
-    }while(err>=1e-5);
+    }while(err>=1e-4);
     
     cout<<x<<endl;
 

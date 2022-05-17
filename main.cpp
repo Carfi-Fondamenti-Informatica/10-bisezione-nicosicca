@@ -10,6 +10,7 @@ float f(float x){
 }
 
 
+
 int main()
 {
     float a,b,x,err;

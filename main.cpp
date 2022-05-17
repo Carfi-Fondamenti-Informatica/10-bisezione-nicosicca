@@ -14,8 +14,8 @@ int main()
 {
     double a,b,x,err;
 
+    cout<<"inserire estremi"<<endl;
     do{
-        cout<<"inserire estremi"<<endl;
         cin>>a;
         cin>>b;
     }while((f(a)*f(b)>=0)||(a>b));

@@ -17,14 +17,14 @@ int main()
         cout<<"inserire estremi"<<endl;
         cin>>a;
         cin>>b;
-    }while((f(a)*f(b)>=0)||(a>b));
+    }while((f(a)*f(b)>=0.0)||(a>b));
 
 
 
     do{
         x=(a+b)/2;
         if(f(x)==0.0)
-            cout<<x<<endl;
+            break;
         else
         {
             if(f(x)*f(b)<0)
@@ -35,7 +35,7 @@ int main()
         }
     }while(err>=1e-7);
     
-    cout<<x<<endl;
+    cout<<x*1000/1000.0<<endl;
 
     return 0;
 }

@@ -31,7 +31,7 @@ int main()
                 a=x;
             else
                 b=x;
-            err=abs(b-a)/2;
+            err=abs(b-a);
         }
     }while(err>=1e-6);
 
